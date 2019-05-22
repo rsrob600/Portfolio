@@ -1,0 +1,249 @@
+/* * {
+    outline: 1px dotted red;
+} */
+
+.container {
+    width: 960px;
+    min-height: 500px;
+    margin: 0px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+    min-height: 50px;
+    background-image: linear-gradient(#f1f1f1, #fefefe);
+}
+
+.logo {
+    height: 35px;
+    width: 160px;
+    background-image: url("images/jaynedoe.jpg");
+    background-repeat: no-repeat;
+    display: inline-block;
+    top: 9px;
+    left: 20px;
+    position: relative;
+}
+
+.tagline {
+    height: 35px;
+    width: 350px;
+    display: inline-block;
+    margin-left: 380px;
+    top: -1px;
+    left: 30px;
+    position: relative;
+    letter-spacing: 0.2px;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.main {
+    min-height: 300px;
+    display: block;
+    padding: 10px;
+    background-image: radial-gradient(circle, #6e5864, #1b0b0f);
+}
+
+.box-picture {
+    width: 410px;
+    height: 260px;
+    display: inline-block;
+    margin: 8px;
+    background-color: #bab9ba;
+}
+
+.myphoto {
+    width: 405px;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+    border: 5px solid #bab9ba;
+}
+
+.about-container {
+    width: 490px;
+    height: 260px;
+    display: inline-block;
+    margin: 8px;
+    background-color: purple;
+    vertical-align: top;
+}
+
+.about-title-bar {
+    height: 40px;
+    display: block;
+    background-image: linear-gradient(#b2b2b6, #878594, #b2b2b6);
+}
+
+.about-text {
+    height: 218px;
+    display: block;
+    background-image: linear-gradient(to right, #fefefe, #dacbd9);
+}
+
+.about-text p {
+    font-size: 15.5px;
+    text-align: left;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+    overflow: auto;
+}
+
+.gallery-container {
+    width: 293px;
+    height: 525px;
+    display: inline-block;
+    margin: 8px;
+    background-image: linear-gradient(to right, #fefefe, #dacbd9);
+}
+
+.gallery-title-bar {
+    height: 40px;
+    display: block;
+    background-image: linear-gradient(#b2b2b6, #878594, #b2b2b6);
+}
+
+/* Gallery Portfolio Image Container */
+.gallery-picture {
+    height: 150px;
+    display: block;
+}
+
+/* Gallery Portfolio Image */
+.gallery-image {
+    width: 293px;
+    height: 150px;
+    object-fit: cover;
+    display: block;
+}
+
+.gallery-text {
+    height: 150px;
+    display: block;
+}
+
+.gallery-text p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.gallery-technologies-bar {
+    height: 40px;
+    display: block;
+    background-image: linear-gradient(#b2b2b6, #878594, #b2b2b6);
+}
+
+/* Gallery Tech Icon Container */
+.gallery-tech-icons {
+    height: 100px;
+    display: block;
+    padding: 3px;
+    margin-left: 7px;
+}
+
+/* Gallery Technology Icons */
+.icon-image {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.gallery-button-container {
+    height: 40px;
+    display: block;
+    padding: 7px;
+}
+
+.gallery-button {
+    margin: 0 auto;
+    padding: 3px 8px;
+    display: block;
+    color: white;
+    background-color: #407d61;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 8px;
+    border: 1px solid black;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    box-shadow: 0 2px 6px 0 #967b96, 0 2px 4px 0 #F4F0F4;
+}
+
+.gallery-button:hover {
+    background-color: lightgreen;
+    color: black;
+    box-shadow: 0 4px 8px 0 #755a75, 0 4px 8px 0 rgb(207, 189, 207);
+}
+
+/* Footer container */
+.footer {
+    padding: 5px;
+    min-height: 50px;
+    background-image: linear-gradient(#fefefe, #f1f1f1);
+}
+
+/* Footer contact info icons */
+.footer-image {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 9px;
+}
+
+.footer-table {
+    /* font-weight: 500; */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Remove the bold highting from the footer contact info table header */
+th {
+    font-weight: 500;
+}
+
+/* Website Tagline */
+h2 {
+    color: black;
+    font-weight: normal;
+    line-height: 1;
+    text-align: left;
+    margin: 0px 0 0;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    display: inline-block;
+}
+
+/* Website Section Headings - Major */
+h4 {
+    color: white;
+    font-weight: 550;
+    font-size: 16px;
+    text-align: left;
+    margin: 11px 9px 0px;
+    display: inline-block;
+}
+
+/* Website Section Headings - Minor */
+h5 {
+    color: white;
+    font-weight: 550;
+    font-size: 14px;
+    text-align: left;
+    margin: 14px 9px 0;
+    display: inline-block;
+}
+
+span {
+    text-decoration: underline;
+}
